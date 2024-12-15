@@ -24,3 +24,15 @@ print("\n\nDataframe2:\n\n",df2)
 df3 = pd.merge(df1,df2,left_on=['Student','ID'],right_on=['Names','roll_id'])
 
 print("\n\nDataframe joined : \n\n",df3)
+
+
+# Concat 
+
+concat_df = pd.concat([df1,df2])
+
+print("\n\nConcatenated df : \n\n",concat_df)
+
+
+concat_df2 = pd.concat([df1,df2],axis=1,join="outer")
+
+print("\n\nConcatenated df on axis : \n\n",concat_df2)
