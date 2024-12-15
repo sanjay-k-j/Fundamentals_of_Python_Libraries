@@ -54,14 +54,6 @@ cd example-code-pandas-numpy-matplotlib
 
 3. Explore the folders and run the scripts to learn and experiment.
 
-## Contributing
-
-Contributions are welcome! If you have additional examples or improvements, feel free to open a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Feedback
 
 If you find this repository helpful or have any suggestions, please let us know by opening an issue or contacting us directly.
