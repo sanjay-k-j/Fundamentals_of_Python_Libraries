@@ -5,6 +5,6 @@ import pandas as pd
 # print("\n Display the series : \n", ser)
 
 
-df = pd.DataFrame({"Cat1" : list("pqrs"),"Cat2" : list("pqrs"),"Cat3":list("pqrs"),"Cat4":list("pqrs")}, dtype="category")
+df = pd.DataFrame({"Cat1" : list("abc"),"Cat2" : list("xyz"),"Cat3":list("pqr"),"Cat4":list("abc")}, dtype="category")
 
 print(df)
